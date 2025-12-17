@@ -8,13 +8,13 @@ The repository is organized into small, focused modules, each highlighting a dif
 
 ```
 .
-├── merkle_tree/
-│   ├── merkle.py        # Merkle tree construction and root verification
-│   └── test.py          # Tests for tamper detection
 ├── hash_signatures/
 │   ├── signature.py     # Digital signature generation and verification
 │   ├── forgery.txt      # Example of forged content
 │   └── test.py
+├── merkle_tree/
+│   ├── merkle.py        # Merkle tree construction and root verification
+│   └── test.py          # Tests for tamper detection
 ├── watermark/
 │   ├── generate.py      # Generates a hash-based watermark
 │   ├── verify_coin.py   # Verifies integrity of a signed object
