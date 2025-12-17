@@ -116,7 +116,7 @@ class MTSignature:
         return signature
 
 
-# #chatgpt did this part
+
 # def load_messages():
 #     try:
 #         with open("messages.txt", "r", encoding="utf-8") as file:
